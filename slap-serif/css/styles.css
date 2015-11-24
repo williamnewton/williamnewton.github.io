@@ -1,0 +1,108 @@
+	/* Default link styling */
+	a:link { color:#0271fb; }
+	a:visited { color:#bd02fb; }
+	a:hover, a:focus { color:#000; }
+	a:active { color:#fb0e02; }
+	
+	
+	
+/* ---------------------------------------------------------
+   WILLDJTHRILL's styles
+   ---------------------------------------------------------*/
+	body {
+   		background:#eee;
+   		font-family: serif;
+	}
+
+	section {
+		height:400px;
+		border-bottom:1px solid rgba(0,0,0,0.15);
+		border-top:1px solid rgba(255,255,255,0.1);
+		padding:50px 0px;
+		position:relative;
+		overflow:hidden;
+	}
+
+	.intro {
+		text-align: center;
+	}
+
+	.intro h1 {
+		font-weight:bold;
+		letter-spacing:-2px;
+		text-shadow:0px 1px 1px #fff;
+		font-size:72px;
+	}
+
+	.download-button {
+		background:#3b9bc4;
+		width:220px;
+		font-size:16px;
+		color:#fff;
+		text-shadow:0px 1px 6px rgba(0,0,0,0.3);
+		margin:100px auto 0px;
+		border-radius: 8px;
+		height:60px;
+		line-height:60px;
+		font-weight:bold;
+	}
+
+	.download-button:hover {
+		background:#4babd4;
+		cursor: pointer;
+	}
+
+	.download-button:active {
+		background:#3b9bc4;
+		box-shadow:0px 3px 8px rgba(0,0,0,0.4) inset;
+	}
+
+	.uses h2 {
+		position:absolute;
+		top:0px;
+		left:55%;
+	}
+
+	.uses h1 {
+		position:relative;
+		top:-200px;
+		left:-20px;
+		width:50%;
+		letter-spacing: -1px;
+	}
+	
+/* ---------------------------------------------------------
+   Print styles
+   ---------------------------------------------------------*/
+@media print {
+    * {
+        color:#000 !important;
+        box-shadow:none !important;
+        text-shadow:none !important;
+		background:transparent !important;
+    }
+	html { background-color:#fff; }
+	/* Hide navigation */
+	nav { display:none; }
+
+	/* Show link destinations in brackets after the link text */
+	a[href]:after { content: " (" attr(href) ") "; }
+	a[href] {
+		font-weight:bold;
+		text-decoration:underline;
+		color:#06c;
+		border:none;
+	}
+	/* Don't show link destinations for JavaScript or internal links */ 
+	a[href^="javascript:"]:after, a[href^="#"]:after { content:""; }
+	
+	/* Show abbr title value in brackets after the text */
+	abbr[title]:after { content: " (" attr(title) ")"; }
+
+	figure { 
+		margin-bottom:1em; 
+		overflow:hidden;
+	}
+
+	figure img { border:1px solid #000; }
+}

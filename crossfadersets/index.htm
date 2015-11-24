@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.5; user-scalable=no;">
+		<title>CF Sets Demo</title>
+
+	    <!-- BOOTSTRAP -->
+	    <link href="./css/bootstrap.min.css" rel="stylesheet">
+	    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	    <!-- JQUERY -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="./css/not.the.skin.css">
+		<link rel="stylesheet" href="./circle.skin/circle.player.css">
+		<link rel="stylesheet" href="./css/style.css">
+
+		<script type="text/javascript" src="./js/jquery.transform2d.js"></script>
+		<script type="text/javascript" src="./js/jquery.grab.js"></script>
+		<script type="text/javascript" src="./js/jquery.jplayer.js"></script>
+		<script type="text/javascript" src="./js/mod.csstransforms.min.js"></script>
+		<script type="text/javascript" src="./js/circle.player.js"></script>
+		<!--<script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>-->
+
+		<script type="text/javascript">
+		$(document).ready(function(){
+
+			/*
+			 * Instance CirclePlayer inside jQuery doc ready
+			 *
+			 * CirclePlayer(jPlayerSelector, media, options)
+			 *   jPlayerSelector: String - The css selector of the jPlayer div.
+			 *   media: Object - The media object used in jPlayer("setMedia",media).
+			 *   options: Object - The jPlayer options.
+			 *
+			 * Multiple instances must set the cssSelectorAncestor in the jPlayer options. Defaults to "#cp_container_1" in CirclePlayer.
+			 */
+
+			var myCirclePlayer = new CirclePlayer("#jquery_jplayer_1",
+			{
+				m4a: "./crossfamous1.m4a",
+			}, {
+				cssSelectorAncestor: "#cp_container_1"
+			});
+
+		});
+		</script>
+	</head>
+	<body>
+
+		<!-- The jPlayer div must not be hidden. Keep it at the root of the body element to avoid any such problems. -->
+		<div id="jquery_jplayer_1" class="cp-jplayer"></div>
+
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="http://getbootstrap.com/examples/starter-template/#">Crossfader Mix Prototype</a>
+	        </div>
+	      </div>
+	    </nav>
+
+		<div class="container padding-top-90">
+			<div class="row">
+				<div class="col-sm-12">
+
+					<div class="set-item">
+			          <div class="set-info">
+			            <img class="profilepic" src="https://dxzw8fe3xavok.cloudfront.net/attachments/3833269/485786-djface.png" />
+			            <p class="username">DJ LOFTMUSZIK</p>
+			            <p class="country">CALIFORNIA, USA</p>
+			            <p class="timeago">3 days ago</p>
+			          </div> <!-- /Set Info -->
+			          <p class="set-title">THE BEST MIX OF 2014 - FEAT JAKE LAMA</p>
+			          <p class="set-stats">
+			          	<span class="playcount">
+			          		<i class="fa fa-play"></i> 124
+		          		</span>
+						<span class="likecount">
+		          			<i class="fa fa-heart"></i> 72
+		          		</span>
+		          		<span class="tags">#disco, #deephouse</span>
+	          		</p>
+
+			          <div class="album-collage">
+			          	<img src="./img/a1.jpg" />
+			          	<img src="./img/a2.jpg" />
+			          	<img src="./img/a3.jpg" />
+			          	<img src="./img/a4.jpg" />
+			          	<img src="./img/a5.jpg" />
+			          	<img src="./img/a6.jpg" />
+			          	<img src="./img/a7.jpg" />
+			          	<img src="./img/a8.jpg" />
+			          	<img src="./img/a9.jpg" />
+			          	<img src="./img/a10.jpg" />
+			          	<img src="./img/a13.jpg" />
+			          	<img src="./img/a14.jpg" />
+			          	<img src="./img/a15.jpg" />
+			          	<img src="./img/a16.jpg" />
+			          	<img src="./img/a17.jpg" />
+			          	<img src="./img/a18.jpg" />
+			          	<img src="./img/a19.jpg" />
+			          	<img src="./img/a20.jpg" />
+			          	<img src="./img/a21.jpg" />
+			          	<img src="./img/a22.jpg" />
+			          	<img src="./img/a23.jpg" />
+			          	<img src="./img/a24.jpg" />
+			          	<img src="./img/a25.jpg" />
+			          	<img src="./img/a26.jpg" />
+			          </div>
+
+					<!-- PLAYER -->
+					<div id="cp_container_1" class="cp-container set-player">
+						<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
+							<div class="cp-buffer-1"></div>
+							<div class="cp-buffer-2"></div>
+						</div>
+						<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
+							<div class="cp-progress-1"></div>
+							<div class="cp-progress-2"></div>
+						</div>
+						<div class="cp-circle-control"></div>
+						<ul class="cp-controls">
+							<li><a class="cp-play" tabindex="1"><i class="fa fa-play"></i></a></li>
+							<li><a class="cp-pause" tabindex="1" style="display:none;"><i class="fa fa-pause"></i></a></li>
+						</ul>
+					</div>
+
+					<!-- SETLIST -->
+					<div class="setlist">
+						<ol>
+							<li><a href="#">Drop It - Zooya &amp; Kombucha</a></li>
+							<li><a href="#">The Scheme - Amtrac</a></li>
+							<li><a href="#">Cuba (Original Mix) - Calvin Harris</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Drop It - Zooya &amp; Kombucha</a></li>
+							<li><a href="#">The Scheme - Amtrac</a></li>
+							<li><a href="#">Cuba (Original Mix) - Calvin Harris</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Drop It - Zooya &amp; Kombucha</a></li>
+							<li><a href="#">The Scheme - Amtrac</a></li>
+							<li><a href="#">Cuba (Original Mix) - Calvin Harris</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+							<li><a href="#">Such and such - so and so</a></li>
+						</ol>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+		</div>
+	</body>
+</html>

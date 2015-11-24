@@ -1,0 +1,202 @@
+.cp-container {
+  border-radius:50%;
+}
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background:#000!important
+  ;
+
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.padding-top-60 {
+  padding-top:60px;
+}
+.padding-top-90 {
+  padding-top:90px;
+}
+.padding-top-120 {
+  padding-top:120px;
+}
+
+
+
+p {
+  text-align: left;
+}
+
+/* Set Item */
+
+.set-item {
+    width:500px;
+    -webkit-transition:all 0.3s ease;
+    position:relative;
+    display:block;
+    margin:20px auto;
+}
+
+.set-item .album-collage {
+  position:absolute;
+  width:100%;
+  z-index: 0;
+}
+
+.set-item .album-collage img {
+  float:left;
+  width:33%;
+  /* Experimenting with different widths, 25%, 33%, 50% */
+  display:inline-block;
+  opacity:0.4;
+}
+
+.set-info {
+    height:42px;
+    width:100%;
+}
+
+.set-item p {
+    color:#fff;
+    font-family:'function pro', Helvetica, sans-serif;
+    margin:0;
+    text-transform: uppercase;
+}
+
+.set-title {
+    font-size:30px;
+    line-height: 32px;
+}
+
+.set-stats {
+  margin:0;
+}
+.set-stats span, .set-stats i {
+  color:#999;
+}
+
+.set-stats span.tags {
+  float:right;
+}
+
+.set-stats span {
+  margin-right:12px;
+}
+
+.set-img {
+    width:100%;
+    height:auto;
+    opacity:0;
+    -webkit-transition:all 0.3s ease;
+    margin: 0 auto;
+        display:block;
+    position:relative;
+    top:0px;
+}
+
+.set-controls {
+    width:300px;
+    display:block;
+        margin: 0 auto;
+        opacity:1;
+  -webkit-transition:all 0.3s ease;
+    position:relative;
+    bottom:-24px;
+}
+
+.set-controls i {
+  margin:0 25px;
+  font-size:24px;
+}
+
+
+
+.username {
+    padding-top:2px;
+    font-size:16px;
+}
+.timeago {
+  position:absolute;
+  top:16px;
+  right:20px;
+  font-size:14px;
+  color:#999;
+}
+img.profilepic {
+    float:left;
+    height:38px;
+    width:38px;
+    border-radius:50%;
+    margin-right:10px;
+}
+
+.country {
+    font-size:12px;
+    color:rgba(255,255,255,0.5)!important;
+}
+
+.set-player {
+  margin-top:50px;
+  margin-bottom:40px;
+}
+
+.setlist {
+  position: absolute;
+  z-index: 10000;
+  width:100%;
+  text-align:left;
+  padding:0 60px;
+}
+.setlist h3 {
+  font-weight: lighter;
+  text-align:center;
+}
+.setlist li, ol {
+  font-size:18px;
+  font-weight: lighter;
+  font-family: 'function pro', Helvetica, sans-serif;
+    opacity:0.9;
+    -webkit-transition:0.3s all ease;
+  -moz-transition:0.3s all ease;
+  -o-transition:0.3s all ease;
+  transition:0.3s all ease;
+  line-height:1.6em;
+}
+
+.setlist li:hover {
+  opacity:1;
+  margin-left:10px;
+}
+.setlist a {
+  color:#fff;
+}
