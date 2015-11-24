@@ -172,6 +172,7 @@ body {
 }
 .jumbotron h2{
   margin:0 0 16px;
+  font-size:1.8em;
 }
 
 .marketing .img-responsive{
@@ -188,6 +189,24 @@ body {
 
 /* Writing */
 .writing .story {
+}
+
+.writing {
+  position: relative;
+}
+
+.writing .loading-div {
+  position:absolute;
+  width:100%;
+  top:200px;
+  color:#999;
+  text-align:center;
+  z-index: -1;
+}
+
+.story.medium {
+  min-height:297px;
+  margin-bottom:6px;
 }
 
 .subscribe {
@@ -319,6 +338,19 @@ p.align-center {
     background:#ea4c89;
 }
 
+.square .mixcloud {
+  background:#574d4d;
+}
+
+.square .soundcloud {
+  background:#f50;
+}
+
+.square .soundcloud:hover {
+  color:#f50;
+  background:#fff;
+}
+
 .square .twitter:hover {
   color:#55ACEE;
   background:#fff;
@@ -337,6 +369,11 @@ p.align-center {
 .square .dribbble:hover {
     color:#ea4c89;
     background:#fff;
+}
+
+.square .mixcloud:hover {
+  color:#574d4d;
+  background:#fff;
 }
 
 /* Square color social styles here */
