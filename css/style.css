@@ -531,7 +531,7 @@ p.align-center {
 .case-study-button:hover .btn-bg {
  -webkit-transform: scale3d(1.5,1.5,1);
   transform: scale3d(1.5,1.5,1);
-  opacity:0.4;
+  opacity:1;
 }
 
 .case-study-button .first {
@@ -543,10 +543,12 @@ p.align-center {
   transition:all 0.3s ease-in-out;
   color:#333;
   z-index: 10000;
+  top:300px;
+  color:#fff;
 }
 
 .case-study-button:hover .first {
-  top:300px;
+  top:0px;
   color:#fff;
 }
 
