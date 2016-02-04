@@ -504,7 +504,7 @@ p.align-center {
   font-weight: bolder;
   position:relative;
   overflow:hidden;
-  background:#dddddd;
+  background:#333333;
   height:150px;
   transition:all 0.3s ease-in-out;
 }
@@ -512,6 +512,7 @@ p.align-center {
 .work .case-study-button {
   width:100%;
   height:250px;
+  background:#333;
 }
 
 .case-study-button:hover {
@@ -530,7 +531,7 @@ p.align-center {
 .case-study-button:hover .btn-bg {
  -webkit-transform: scale3d(1.5,1.5,1);
   transform: scale3d(1.5,1.5,1);
-  opacity:1;
+  opacity:8;
 }
 
 .case-study-button .first {
@@ -538,16 +539,16 @@ p.align-center {
   width:100%;
   padding:62px 0;
   text-align:center;
-  top:0px;
+  top:0;
   transition:all 0.3s ease-in-out;
   color:#333;
   z-index: 10000;
-  top:300px;
+  top:0px;
   color:#fff;
 }
 
 .case-study-button:hover .first {
-  top:0px;
+  top:300px;
   color:#fff;
 }
 
@@ -567,6 +568,8 @@ p.align-center {
 .case-study-button:hover .second {
   top:0px;
   color:#fff;
+  display:inline-block;
+  text-shadow:0 1px 8px #333;
 }
 
 .case-study-button.next {
