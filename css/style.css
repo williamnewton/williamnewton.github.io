@@ -41,11 +41,14 @@ body {
 
 /* Customize container */
 @media (min-width: 768px) {
-  .container {
+  .container.small {
     max-width: 730px;
   }
+  .container {
+    max-width: 1280px;
+  }
   .container.wider {
-    max-width:860px;
+    max-width:980px;
   }
 }
 .container-narrow > hr {
