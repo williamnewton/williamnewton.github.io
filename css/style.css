@@ -162,6 +162,7 @@ body {
 	padding-top:24px;
 	padding-bottom:24px;
   margin-bottom:12px;
+  font-size:18px;
 }
 
 .avatar {
@@ -176,6 +177,10 @@ body {
 .jumbotron h2{
   margin:12px 0 24px;
   font-size:1.8em;
+}
+
+.jumbotron p {
+
 }
 
 .marketing .img-responsive{
