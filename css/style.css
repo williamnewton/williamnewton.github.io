@@ -179,8 +179,8 @@ body {
   font-size:1.8em;
 }
 
-.jumbotron p {
-
+.jumbotron span {
+  line-height:1.4em;
 }
 
 .marketing .img-responsive{
@@ -234,6 +234,7 @@ body {
 }
 
 .jumbotron h3 {
+  line-height:1.6em;
 }
 
 .story .location {
