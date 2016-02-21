@@ -45,7 +45,7 @@ body {
     max-width: 730px;
   }
   .container {
-    max-width: 1280px;
+    max-width: 980px;
   }
   .container.wider {
     max-width:980px;
@@ -419,7 +419,7 @@ p.align-center {
 }
 
 .container.case-study {
-  max-width:100%;
+  max-width:1100px;
   position:relative;
 }
 
@@ -433,6 +433,7 @@ p.align-center {
 
 .case-info p{
   margin-bottom:24px;
+  text-align: justify;
 }
 .case-study img {
   margin: 0 auto 20px;
@@ -610,6 +611,10 @@ p.align-center {
   max-height: 100%;
   max-width: 100%;
   opacity: 0.8;
+}
+
+img {
+  max-width:100%;
 }
 
 .study .group .caption {
