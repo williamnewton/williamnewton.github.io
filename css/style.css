@@ -34,6 +34,7 @@ body {
 
 /* Custom page footer */
 .footer {
+  margin-top:48px;
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
@@ -277,7 +278,7 @@ body {
 
 /* About */
 .container.about .jumbotron {
-  min-height:600px;
+  padding-bottom:0;
 }
 
 .align-center {
@@ -290,8 +291,8 @@ p.align-center {
   color:#999;
 }
 
-.about .row {
-	padding:15px;
+.about .row img {
+	margin-bottom:30px;
 }
 
 .about h1 {
