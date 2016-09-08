@@ -53,3 +53,20 @@
     max-width:1280px;
   }
 }
+
+@media (max-width: 768px) {
+
+.space {
+	margin-top:50px;
+	margin-bottom:50px;
+	max-width:320px;
+}
+
+.buy {
+	transition:none;
+}
+
+.buy:hover {
+	transform:none;
+}
+	}
