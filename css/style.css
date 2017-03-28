@@ -160,8 +160,7 @@ body {
 
 .jumbotron {
 	background:none;
-	padding-top:24px;
-	padding-bottom:24px;
+	padding:24px;
   margin-bottom:12px;
   font-size:18px;
 }
@@ -180,8 +179,8 @@ body {
   font-size:1.8em;
 }
 
-.jumbotron span {
-  line-height:1.4em;
+.jumbotron p {
+  line-height:1.65em;
 }
 
 .marketing .img-responsive{
@@ -458,7 +457,7 @@ p.align-center {
   }
   .case-info {
     box-shadow:none;
-  } 
+  }
   .case-info {
     margin:6px 0;
   }
