@@ -1,0 +1,30 @@
+/*  purplehaze.css  -  styles for this swaggy blog post */
+
+
+/*Animation Prefs*/
+@-webkit-keyframes pulse {
+      0% {background-color: #8405fa;}
+     50% {background-color: #fff;}
+     100% {background-color: #8405fa;}
+}
+
+body {
+	color:#fff;
+	background:#8405fa;
+	-webkit-animation: pulse 80s infinite alternate;
+	padding:20px 90px 30px 40px;
+	height:1600px;
+}
+
+.main {
+	font-size:160%;
+	float:left;
+}
+
+.main span {
+	text-decoration: line-through;
+}
+
+.main h1 { margin-bottom:0px;padding-bottom:0px; font-size:3.6em; letter-spacing: -2px;}
+
+.main h2 { margin-top:0px;padding-top:.4em; letter-spacing: -1px;}

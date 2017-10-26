@@ -1,0 +1,72 @@
+
+
+.side-hustle-prev {
+	max-width:100%;
+	margin: 0 auto;
+	display:block;
+}
+
+.text-muted {
+	text-align:center;
+}
+
+.top-container {
+	font-weight:400;
+	margin-bottom:50px;
+	margin-top:50px;
+	max-width:420px;
+	line-height:1.8em;
+}
+
+.top-container h2 {
+	line-height: 1.6em;
+}
+
+.top-container .lead {
+	line-height: 1.6em;
+}
+
+.space {
+	margin-top:200px;
+	margin-bottom:200px;
+	max-width:320px;
+}
+
+.buy {
+	transition:all ease 3s;
+}
+
+.buy:hover {
+	transform:scale(2);
+}
+
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container.small {
+    max-width: 730px;
+  }
+  .container {
+    max-width: 980px;
+  }
+  .container.wider {
+    max-width:1280px;
+  }
+}
+
+@media (max-width: 768px) {
+
+.space {
+	margin-top:50px;
+	margin-bottom:50px;
+	max-width:320px;
+}
+
+.buy {
+	transition:none;
+}
+
+.buy:hover {
+	transform:none;
+}
+	}
