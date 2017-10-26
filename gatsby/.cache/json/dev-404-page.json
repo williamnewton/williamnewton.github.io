@@ -1,0 +1,55 @@
+{
+    "data": {
+        "allSitePage": {
+            "totalCount": 9,
+            "edges": [
+                {
+                    "node": {
+                        "path": "/404/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/art/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/case/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/music/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/work/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/writing/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/z/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/404.html"
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}

@@ -335,12 +335,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-10-26T02:04:01.224Z",
+      "buildTime": "2017-10-26T03:35:29.797Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3a7b721e3ad3e0fdbcaee7bc4c3f084f",
+        "contentDigest": "1e7e7b999846b415935dff23d280b30c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -352,7 +352,7 @@
       "layout": "index",
       "jsonName": "404.json",
       "internalComponentName": "Component404",
-      "updatedAt": 1508983442394,
+      "updatedAt": 1508988931095,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -362,7 +362,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "729e13822c638c37207f95d09d8f2cd0",
+        "contentDigest": "7969f354ae81da5f9a86281174709de5",
         "owner": "internal-data-bridge"
       }
     },
@@ -373,7 +373,7 @@
       "layout": "index",
       "jsonName": "art.json",
       "internalComponentName": "ComponentArt",
-      "updatedAt": 1508983442394,
+      "updatedAt": 1508988931096,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -383,7 +383,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f0ad29d798b2e29194491e9961d82e37",
+        "contentDigest": "a50ecdc3f4cefa69b14b282d148b1a02",
         "owner": "internal-data-bridge"
       }
     },
@@ -394,7 +394,7 @@
       "layout": "index",
       "jsonName": "case.json",
       "internalComponentName": "ComponentCase",
-      "updatedAt": 1508983442395,
+      "updatedAt": 1508988931097,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -404,7 +404,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f1a65c10bc48d46115ffcad78d988d6a",
+        "contentDigest": "9faf28325a558cb257f9d27356083a51",
         "owner": "internal-data-bridge"
       }
     },
@@ -415,7 +415,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1508983442396,
+      "updatedAt": 1508988931098,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -425,7 +425,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "04af073335888a8892dcd628f0779d72",
+        "contentDigest": "312366ba4fa05b334f80ffd7ae9d30ba",
         "owner": "internal-data-bridge"
       }
     },
@@ -436,7 +436,7 @@
       "layout": "index",
       "jsonName": "music.json",
       "internalComponentName": "ComponentMusic",
-      "updatedAt": 1508983442396,
+      "updatedAt": 1508988931099,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -446,7 +446,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "507c4ccb9badf481b188b09ffe055d4f",
+        "contentDigest": "68a935db54b8dd10864b049eab2e9ed5",
         "owner": "internal-data-bridge"
       }
     },
@@ -457,7 +457,7 @@
       "layout": "index",
       "jsonName": "work.json",
       "internalComponentName": "ComponentWork",
-      "updatedAt": 1508983442396,
+      "updatedAt": 1508988931099,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -467,7 +467,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "38d82157e22066c1aa651ba44bf8168e",
+        "contentDigest": "a743b010b1d6eaab47e24b23d3177320",
         "owner": "internal-data-bridge"
       }
     },
@@ -478,7 +478,7 @@
       "layout": "index",
       "jsonName": "writing.json",
       "internalComponentName": "ComponentWriting",
-      "updatedAt": 1508983442397,
+      "updatedAt": 1508988931100,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -488,7 +488,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2be7b6cb79815f69eaeb7169bb55377d",
+        "contentDigest": "0d5799a2e417adcf77f48e6cc797b7da",
         "owner": "internal-data-bridge"
       }
     },
@@ -499,7 +499,7 @@
       "layout": "index",
       "jsonName": "z.json",
       "internalComponentName": "ComponentZ",
-      "updatedAt": 1508983442397,
+      "updatedAt": 1508988931100,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -509,7 +509,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "71a63dedb0876519ad534c42b46b1af1",
+        "contentDigest": "4752b8a932e2f8a163e2d0cb1e2fa64f",
         "owner": "internal-data-bridge"
       }
     },
@@ -520,7 +520,7 @@
       "layout": "index",
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
-      "updatedAt": 1508983442400,
+      "updatedAt": 1508988931103,
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
@@ -530,7 +530,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "803c3bd5fc1048e6fbfdc48416917cad",
+        "contentDigest": "3a4ab97ce70575ba92761c39864be626",
         "owner": "internal-data-bridge"
       }
     }
@@ -541,6 +541,10 @@
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {}
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
   }
 }
