@@ -1,0 +1,65 @@
+[
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404.json",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-case-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "case.json",
+        "path": "/case/"
+    },
+    {
+        "componentChunkName": "component---src-pages-art-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "art.json",
+        "path": "/art/"
+    },
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "index.json",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-music-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "music.json",
+        "path": "/music/"
+    },
+    {
+        "componentChunkName": "component---src-pages-work-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "work.json",
+        "path": "/work/"
+    },
+    {
+        "componentChunkName": "component---src-pages-writing-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "writing.json",
+        "path": "/writing/"
+    },
+    {
+        "componentChunkName": "component---src-pages-z-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "z.json",
+        "path": "/z/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404-html.json",
+        "path": "/404.html"
+    }
+]
