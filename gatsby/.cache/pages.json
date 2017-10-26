@@ -1,5 +1,12 @@
 [
     {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
+    },
+    {
         "componentChunkName": "component---src-pages-404-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -28,18 +35,18 @@
         "path": "/"
     },
     {
-        "componentChunkName": "component---src-pages-music-js",
-        "layout": "index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "music.json",
-        "path": "/music/"
-    },
-    {
         "componentChunkName": "component---src-pages-work-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "work.json",
         "path": "/work/"
+    },
+    {
+        "componentChunkName": "component---src-pages-music-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "music.json",
+        "path": "/music/"
     },
     {
         "componentChunkName": "component---src-pages-writing-js",

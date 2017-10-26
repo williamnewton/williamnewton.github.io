@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "component": "/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/dev-404-page.js",
       "path": "/dev-404-page/",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "updatedAt": 1508989488518,
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "632dc27554120ba2963f3f7e0f18227e",
         "owner": "internal-data-bridge"
       }
     },
@@ -333,14 +343,16 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-10-26T03:35:29.797Z",
+      "buildTime": "2017-10-26T03:44:47.001Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1e7e7b999846b415935dff23d280b30c",
+        "contentDigest": "8e13234ccc002b40a630457d22659b8e",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -352,7 +364,7 @@
       "layout": "index",
       "jsonName": "404.json",
       "internalComponentName": "Component404",
-      "updatedAt": 1508988931095,
+      "updatedAt": 1508989488525,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -362,7 +374,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7969f354ae81da5f9a86281174709de5",
+        "contentDigest": "a9ec9e3d23dd826b58f46606101ab4ee",
         "owner": "internal-data-bridge"
       }
     },
@@ -373,7 +385,7 @@
       "layout": "index",
       "jsonName": "art.json",
       "internalComponentName": "ComponentArt",
-      "updatedAt": 1508988931096,
+      "updatedAt": 1508989488525,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -383,7 +395,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a50ecdc3f4cefa69b14b282d148b1a02",
+        "contentDigest": "8e35a2f26149f87cab491a060303ec62",
         "owner": "internal-data-bridge"
       }
     },
@@ -394,7 +406,7 @@
       "layout": "index",
       "jsonName": "case.json",
       "internalComponentName": "ComponentCase",
-      "updatedAt": 1508988931097,
+      "updatedAt": 1508989488526,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -404,7 +416,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9faf28325a558cb257f9d27356083a51",
+        "contentDigest": "0e0ea5df978a1425019283826bdd4203",
         "owner": "internal-data-bridge"
       }
     },
@@ -415,7 +427,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1508988931098,
+      "updatedAt": 1508989488526,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -425,28 +437,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "312366ba4fa05b334f80ffd7ae9d30ba",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /music/": {
-      "path": "/music/",
-      "component": "/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/music.js",
-      "componentChunkName": "component---src-pages-music-js",
-      "layout": "index",
-      "jsonName": "music.json",
-      "internalComponentName": "ComponentMusic",
-      "updatedAt": 1508988931099,
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/music.js",
-      "id": "SitePage /music/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "68a935db54b8dd10864b049eab2e9ed5",
+        "contentDigest": "70c0c439f39c2abfe5e49ec253a3e5d0",
         "owner": "internal-data-bridge"
       }
     },
@@ -457,7 +448,7 @@
       "layout": "index",
       "jsonName": "work.json",
       "internalComponentName": "ComponentWork",
-      "updatedAt": 1508988931099,
+      "updatedAt": 1508989488527,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -467,7 +458,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a743b010b1d6eaab47e24b23d3177320",
+        "contentDigest": "dedd3ba245515554f2041072d4429a79",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /music/": {
+      "path": "/music/",
+      "component": "/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/music.js",
+      "componentChunkName": "component---src-pages-music-js",
+      "layout": "index",
+      "jsonName": "music.json",
+      "internalComponentName": "ComponentMusic",
+      "updatedAt": 1508989488527,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/music.js",
+      "id": "SitePage /music/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "656e6305dfdee2d6b65eae008627392a",
         "owner": "internal-data-bridge"
       }
     },
@@ -478,7 +490,7 @@
       "layout": "index",
       "jsonName": "writing.json",
       "internalComponentName": "ComponentWriting",
-      "updatedAt": 1508988931100,
+      "updatedAt": 1508989488528,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -488,7 +500,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0d5799a2e417adcf77f48e6cc797b7da",
+        "contentDigest": "7db4a4dbc183cffb4e1561097f4e7c0c",
         "owner": "internal-data-bridge"
       }
     },
@@ -499,7 +511,7 @@
       "layout": "index",
       "jsonName": "z.json",
       "internalComponentName": "ComponentZ",
-      "updatedAt": 1508988931100,
+      "updatedAt": 1508989488528,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -509,7 +521,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4752b8a932e2f8a163e2d0cb1e2fa64f",
+        "contentDigest": "accd675a6c22a3d8697ea27d5e840bd7",
         "owner": "internal-data-bridge"
       }
     },
@@ -520,7 +532,7 @@
       "layout": "index",
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
-      "updatedAt": 1508988931103,
+      "updatedAt": 1508989488532,
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
@@ -530,7 +542,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3a4ab97ce70575ba92761c39864be626",
+        "contentDigest": "79843a29d3f5eefbaa076135a6d8fe17",
         "owner": "internal-data-bridge"
       }
     }

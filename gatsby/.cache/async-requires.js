@@ -2,17 +2,20 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
+  "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/dev-404-page.js"),
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/404.js"),
   "component---src-pages-art-js": require("gatsby-module-loader?name=component---src-pages-art-js!/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/art.js"),
   "component---src-pages-case-js": require("gatsby-module-loader?name=component---src-pages-case-js!/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/case.js"),
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/index.js"),
-  "component---src-pages-music-js": require("gatsby-module-loader?name=component---src-pages-music-js!/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/music.js"),
   "component---src-pages-work-js": require("gatsby-module-loader?name=component---src-pages-work-js!/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/work.js"),
+  "component---src-pages-music-js": require("gatsby-module-loader?name=component---src-pages-music-js!/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/music.js"),
   "component---src-pages-writing-js": require("gatsby-module-loader?name=component---src-pages-writing-js!/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/writing.js"),
   "component---src-pages-z-js": require("gatsby-module-loader?name=component---src-pages-z-js!/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/z.js")
 }
 
 exports.json = {
+  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/layout-index.json"),
+  "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/dev-404-page.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/layout-index.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/404.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/layout-index.json"),
@@ -22,9 +25,9 @@ exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/layout-index.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/index.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/layout-index.json"),
-  "music.json": require("gatsby-module-loader?name=path---music!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/music.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/layout-index.json"),
   "work.json": require("gatsby-module-loader?name=path---work!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/work.json"),
+  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/layout-index.json"),
+  "music.json": require("gatsby-module-loader?name=path---music!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/music.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/layout-index.json"),
   "writing.json": require("gatsby-module-loader?name=path---writing!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/writing.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/json/layout-index.json"),

@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import art2 from '../images/Willaa-Space-Diva-Art.jpg';
 import art1 from '../images/willaa-how-u-sey-art.jpg';
 import art3 from '../images/Willaa-EYEDU-art.jpg';
-import willaa from '../images/willaa-2.png';
+import willaa from '../images/willaa-hi.png';
 import BackNav from '../components/BackNav'
 
 const MusicPage = () =>
@@ -33,12 +33,12 @@ const MusicPage = () =>
           </span>
         </div>
         <div className="item">
-          <a target="_blank" href="https://soundcloud.com/djwillaa/sets/eyedu-ep-preview/s-lwkN9">
+          <a target="_blank" href="https://soundcloud.com/djwillaa/eyedu-original-mix">
             <img className="img-full art" src={art3} />
           </a>
-          <p className='margin-none'>EYEDU EP</p>
+          <p className='margin-none'>EYEDU [Single]</p>
           <span>
-            <a target="_blank" href="https://soundcloud.com/djwillaa/sets/eyedu-ep-preview/s-lwkN9">Stream</a> | <a target="_blank" href="https://www.dropbox.com/sh/r9jqxj35a4dkaht/AAClksy1j1T6LiwQGIzd0u3va?dl=0">Download</a>
+            <a target="_blank" href="https://soundcloud.com/djwillaa/eyedu-original-mix">Stream</a> | <a target="_blank" href="https://www.dropbox.com/s/io5brgfjq3ozbh5/Willaa%20-%20EYEDU%20(Original%20Mix)%20.wav?dl=0">Download</a>
           </span>
         </div>
       </div>
@@ -52,8 +52,8 @@ const MusicPage = () =>
         If you want to make the world a happier place, play it a song.<br /><br />
         That's Willa's philosophy, and it's the bumping rhythm at the heart of his sound. From his DJ sets to his productions, Willa's music pulses with an excitable, positive energy. It's his mission to infect the world with groove. Each set is another opportunity to dig into your soul, each dance floor a bed for seeds to grow into pure, danceable joy.
       </p>
-      <img className="bio-pic margin-top-50" src={willaa} />
     </div>
+    <img className="img-full" src={willaa} />
   </div>
 
 export default MusicPage

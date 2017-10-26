@@ -635,11 +635,13 @@ pre tt:after {
 
 @media only screen and (min-width: 620px) {
   .header-diagonal {
-    transform: rotate(30deg);
     position: fixed;
     margin: 0 auto;
     top: 0;
+    right: 0;
     padding: 1.45rem 1.0875rem;
+    -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
   }
 }
 
@@ -671,7 +673,7 @@ ul.home-list li {
   }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 620px) {
   .half-page {
     max-width: 60%;
   }
@@ -771,7 +773,7 @@ ul.home-list li {
 
 .rainbow {
   height: 250px;
-  width: 160%;
+  width: 70%;
   z-index: -1;
   margin: 0;
   padding: 0;
@@ -808,9 +810,6 @@ ul.home-list li {
   .flex-row {
     flex-direction: column;
   }
-  .bio-pic {
-    display: none;
-  }
 }
 
 .links-section {
@@ -829,18 +828,18 @@ ul.home-list li {
 }
 
 .bio-pic {
-  float:left;
-  margin-left:60px;
-  width: 304px;
-  height: 398px;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
 }
 
 .bio-quote {
-  margin-top: 60px;
-  color:#333;
-  font-size: 16px;
+  color:#344444;
+  font-size: 18px;
   font-style: italic;
   font-family: Georgia, serif;
+  width: 70%;
+  display: block; margin: 60px auto;
+  line-height: 1.8em;
 }
 
 .margin-top {
