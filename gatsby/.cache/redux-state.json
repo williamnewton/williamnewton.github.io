@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "component": "/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/dev-404-page.js",
       "path": "/dev-404-page/",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1508989488518,
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/will.newton/Projects/williamnewton.github.io/gatsby/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "632dc27554120ba2963f3f7e0f18227e",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -343,16 +333,14 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-10-26T03:44:47.001Z",
+      "buildTime": "2017-10-26T04:52:12.200Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8e13234ccc002b40a630457d22659b8e",
+        "contentDigest": "f959fb8e0dbde9400351adc732b835c6",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -364,7 +352,7 @@
       "layout": "index",
       "jsonName": "404.json",
       "internalComponentName": "Component404",
-      "updatedAt": 1508989488525,
+      "updatedAt": 1508993533461,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -374,7 +362,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a9ec9e3d23dd826b58f46606101ab4ee",
+        "contentDigest": "aeb700452ae4458e8b6f7db3d8a71f0e",
         "owner": "internal-data-bridge"
       }
     },
@@ -385,7 +373,7 @@
       "layout": "index",
       "jsonName": "art.json",
       "internalComponentName": "ComponentArt",
-      "updatedAt": 1508989488525,
+      "updatedAt": 1508993533462,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -395,7 +383,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8e35a2f26149f87cab491a060303ec62",
+        "contentDigest": "0677d914841f135069f952af7b95f5c4",
         "owner": "internal-data-bridge"
       }
     },
@@ -406,7 +394,7 @@
       "layout": "index",
       "jsonName": "case.json",
       "internalComponentName": "ComponentCase",
-      "updatedAt": 1508989488526,
+      "updatedAt": 1508993533462,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -416,7 +404,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0e0ea5df978a1425019283826bdd4203",
+        "contentDigest": "2c6a58d6f25901ffb30938bb67ff70a0",
         "owner": "internal-data-bridge"
       }
     },
@@ -427,7 +415,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1508989488526,
+      "updatedAt": 1508993533463,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -437,28 +425,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "70c0c439f39c2abfe5e49ec253a3e5d0",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /work/": {
-      "path": "/work/",
-      "component": "/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/work.js",
-      "componentChunkName": "component---src-pages-work-js",
-      "layout": "index",
-      "jsonName": "work.json",
-      "internalComponentName": "ComponentWork",
-      "updatedAt": 1508989488527,
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/work.js",
-      "id": "SitePage /work/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "dedd3ba245515554f2041072d4429a79",
+        "contentDigest": "dd4c17b29a28027ba34da42261f1277d",
         "owner": "internal-data-bridge"
       }
     },
@@ -469,7 +436,7 @@
       "layout": "index",
       "jsonName": "music.json",
       "internalComponentName": "ComponentMusic",
-      "updatedAt": 1508989488527,
+      "updatedAt": 1508993533463,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -479,7 +446,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "656e6305dfdee2d6b65eae008627392a",
+        "contentDigest": "55088f29cc561123430f85a2e6d4402e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /work/": {
+      "path": "/work/",
+      "component": "/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/work.js",
+      "componentChunkName": "component---src-pages-work-js",
+      "layout": "index",
+      "jsonName": "work.json",
+      "internalComponentName": "ComponentWork",
+      "updatedAt": 1508993533464,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/will.newton/Projects/williamnewton.github.io/gatsby/src/pages/work.js",
+      "id": "SitePage /work/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3cbba9583c853f4c4f1f08b8b6b7acb4",
         "owner": "internal-data-bridge"
       }
     },
@@ -490,7 +478,7 @@
       "layout": "index",
       "jsonName": "writing.json",
       "internalComponentName": "ComponentWriting",
-      "updatedAt": 1508989488528,
+      "updatedAt": 1508993533464,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -500,7 +488,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7db4a4dbc183cffb4e1561097f4e7c0c",
+        "contentDigest": "2cf5270a4adcf7d9fb46fbe07147b31b",
         "owner": "internal-data-bridge"
       }
     },
@@ -511,7 +499,7 @@
       "layout": "index",
       "jsonName": "z.json",
       "internalComponentName": "ComponentZ",
-      "updatedAt": 1508989488528,
+      "updatedAt": 1508993533464,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -521,7 +509,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "accd675a6c22a3d8697ea27d5e840bd7",
+        "contentDigest": "30bc99c38130e6ab27c3203e473f814b",
         "owner": "internal-data-bridge"
       }
     },
@@ -532,7 +520,7 @@
       "layout": "index",
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
-      "updatedAt": 1508989488532,
+      "updatedAt": 1508993533467,
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
@@ -542,7 +530,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "79843a29d3f5eefbaa076135a6d8fe17",
+        "contentDigest": "0461bc627dbc254ab66c34bb648eeb21",
         "owner": "internal-data-bridge"
       }
     }

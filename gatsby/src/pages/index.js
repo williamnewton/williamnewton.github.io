@@ -12,6 +12,8 @@ const IndexPage = () =>
       <p>Also designed a little app called <a target="_blank" href="http://breatheapp.co/">Breathe</a>.</p>
       <p>Living and working in San Francisco, California.</p>
 
+      <div className="divider rainbow"></div>
+
       <div className="links-section">
         <p>Work, details, socials & stuff:</p>
         <ul className="home-list">
