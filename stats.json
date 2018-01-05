@@ -1,16 +1,28 @@
 {
   "assetsByChunkName": {
+    "component---src-pages-breathe-js": [
+      "component---src-pages-breathe-js-69d0bd5f93c69a1fffb3.js",
+      "component---src-pages-breathe-js-69d0bd5f93c69a1fffb3.js.map"
+    ],
+    "path---crossfader": [
+      "path---crossfader-a0e39f21c11f6a62c5ab.js",
+      "path---crossfader-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-work-js": [
-      "component---src-pages-work-js-bcef283b2cb7e0e75434.js",
-      "component---src-pages-work-js-bcef283b2cb7e0e75434.js.map"
+      "component---src-pages-work-js-7612c69cf0a951114b76.js",
+      "component---src-pages-work-js-7612c69cf0a951114b76.js.map"
     ],
     "path---work": [
       "path---work-a0e39f21c11f6a62c5ab.js",
       "path---work-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-feathr-js": [
+      "component---src-pages-feathr-js-a260e454624eebd17a7f.js",
+      "component---src-pages-feathr-js-a260e454624eebd17a7f.js.map"
+    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-c36dc60e581cb24a73a6.js",
-      "component---src-pages-index-js-c36dc60e581cb24a73a6.js.map"
+      "component---src-pages-index-js-030579a1b014d59a74f4.js",
+      "component---src-pages-index-js-030579a1b014d59a74f4.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -21,8 +33,8 @@
       "path---art-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-d2c4e914af08c1e8e281.js",
-      "component---src-layouts-index-js-d2c4e914af08c1e8e281.js.map"
+      "component---src-layouts-index-js-81151a219469905df6b3.js",
+      "component---src-layouts-index-js-81151a219469905df6b3.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -41,8 +53,8 @@
       "component---src-pages-404-js-eaff86baf7bb4fa81842.js.map"
     ],
     "commons": [
-      "commons-9adb8b4c8795dc3cca64.js",
-      "commons-9adb8b4c8795dc3cca64.js.map"
+      "commons-439e93f99540130bb440.js",
+      "commons-439e93f99540130bb440.js.map"
     ],
     "component---src-pages-writing-js": [
       "component---src-pages-writing-js-d226367558a77d93e76d.js",
@@ -60,31 +72,43 @@
       "component---src-pages-z-js-a7aaca8f7a3db079be79.js",
       "component---src-pages-z-js-a7aaca8f7a3db079be79.js.map"
     ],
+    "path---breathe": [
+      "path---breathe-a0e39f21c11f6a62c5ab.js",
+      "path---breathe-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-music-js": [
-      "component---src-pages-music-js-ec2f59bab68045757038.js",
-      "component---src-pages-music-js-ec2f59bab68045757038.js.map"
+      "component---src-pages-music-js-909392e283014be487c0.js",
+      "component---src-pages-music-js-909392e283014be487c0.js.map"
     ],
     "app": [
-      "app-b24ad271e8ca48d7df18.js",
+      "app-34b1161776dc3fcd6f67.js",
       "build-js-styles.css",
-      "app-b24ad271e8ca48d7df18.js.map",
+      "app-34b1161776dc3fcd6f67.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-crossfader-js": [
+      "component---src-pages-crossfader-js-bb5764ff3a84810a5dac.js",
+      "component---src-pages-crossfader-js-bb5764ff3a84810a5dac.js.map"
+    ],
     "component---src-pages-case-js": [
-      "component---src-pages-case-js-8d69ab6d6862b7d52bba.js",
-      "component---src-pages-case-js-8d69ab6d6862b7d52bba.js.map"
+      "component---src-pages-case-js-7c407eb0e2d7d1307aad.js",
+      "component---src-pages-case-js-7c407eb0e2d7d1307aad.js.map"
     ],
     "component---src-pages-art-js": [
-      "component---src-pages-art-js-0bc240e2ac7c2013cfb5.js",
-      "component---src-pages-art-js-0bc240e2ac7c2013cfb5.js.map"
+      "component---src-pages-art-js-f3cad3e385ada5883447.js",
+      "component---src-pages-art-js-f3cad3e385ada5883447.js.map"
     ],
     "path---case": [
       "path---case-a0e39f21c11f6a62c5ab.js",
       "path---case-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---feathr": [
+      "path---feathr-a0e39f21c11f6a62c5ab.js",
+      "path---feathr-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
