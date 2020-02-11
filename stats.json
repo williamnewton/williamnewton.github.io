@@ -5,8 +5,8 @@
       "path---crossfader-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-work-js": [
-      "component---src-pages-work-js-7612c69cf0a951114b76.js",
-      "component---src-pages-work-js-7612c69cf0a951114b76.js.map"
+      "component---src-pages-work-js-2214e0f9ebabcc034b70.js",
+      "component---src-pages-work-js-2214e0f9ebabcc034b70.js.map"
     ],
     "path---work": [
       "path---work-a0e39f21c11f6a62c5ab.js",
@@ -17,12 +17,16 @@
       "component---src-pages-feathr-js-e0ea69fd17ea7914c319.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-dbf75da5dff5c768f5ce.js",
-      "component---src-pages-index-js-dbf75da5dff5c768f5ce.js.map"
+      "component---src-pages-index-js-e3b8868140770cf03196.js",
+      "component---src-pages-index-js-e3b8868140770cf03196.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---gusto": [
+      "path---gusto-a0e39f21c11f6a62c5ab.js",
+      "path---gusto-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---breatheapp": [
       "path---breatheapp-a0e39f21c11f6a62c5ab.js",
@@ -33,8 +37,8 @@
       "path---art-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-81151a219469905df6b3.js",
-      "component---src-layouts-index-js-81151a219469905df6b3.js.map"
+      "component---src-layouts-index-js-a1fd9672aa0a7997dee9.js",
+      "component---src-layouts-index-js-a1fd9672aa0a7997dee9.js.map"
     ],
     "component---src-pages-breatheapp-js": [
       "component---src-pages-breatheapp-js-62e49da6912a8283542e.js",
@@ -57,8 +61,8 @@
       "component---src-pages-404-js-eaff86baf7bb4fa81842.js.map"
     ],
     "commons": [
-      "commons-d887bcdbf78d93ebb111.js",
-      "commons-d887bcdbf78d93ebb111.js.map"
+      "commons-c9e045a54130d416d34f.js",
+      "commons-c9e045a54130d416d34f.js.map"
     ],
     "component---src-pages-writing-js": [
       "component---src-pages-writing-js-d226367558a77d93e76d.js",
@@ -81,9 +85,9 @@
       "component---src-pages-music-js-0ddd3e2e0deeb2c4c315.js.map"
     ],
     "app": [
-      "app-8b0e96369016d92a47ec.js",
+      "app-e0360fb358a2ceca2e52.js",
       "build-js-styles.css",
-      "app-8b0e96369016d92a47ec.js.map",
+      "app-e0360fb358a2ceca2e52.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -95,12 +99,16 @@
       "component---src-pages-crossfader-js-bb5764ff3a84810a5dac.js.map"
     ],
     "component---src-pages-case-js": [
-      "component---src-pages-case-js-7c407eb0e2d7d1307aad.js",
-      "component---src-pages-case-js-7c407eb0e2d7d1307aad.js.map"
+      "component---src-pages-case-js-8a8e39bca6c782b6143b.js",
+      "component---src-pages-case-js-8a8e39bca6c782b6143b.js.map"
     ],
     "component---src-pages-art-js": [
       "component---src-pages-art-js-f3cad3e385ada5883447.js",
       "component---src-pages-art-js-f3cad3e385ada5883447.js.map"
+    ],
+    "component---src-pages-gusto-js": [
+      "component---src-pages-gusto-js-68a0a91a3ab302365e7d.js",
+      "component---src-pages-gusto-js-68a0a91a3ab302365e7d.js.map"
     ],
     "path---case": [
       "path---case-a0e39f21c11f6a62c5ab.js",
